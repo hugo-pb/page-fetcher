@@ -10,6 +10,7 @@ request(link, (error, response, body) => {
     if (err) {
       console.error(err);
     }
+
+    console.log(`was aadded? ${body.length}`);
   });
-  body;
 });
