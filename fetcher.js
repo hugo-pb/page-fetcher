@@ -11,6 +11,6 @@ request(link, (error, response, body) => {
       console.error(err);
     }
 
-    console.log(`was aadded? ${body.length}`);
+    console.log(`Downloaded and saved ${body.length} bytes to ${adrress} `);
   });
 });
