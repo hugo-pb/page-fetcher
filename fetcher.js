@@ -3,7 +3,7 @@ const request = require("request");
 const link = process.argv[2];
 
 request(link, (error, response, body) => {
-  console.log("error:", error); // Print the error if one occurred
-  console.log("statusCode:", response && response.statusCode); // Print the response status code if a response was received
-  console.log("body:", body); // Print the HTML for the Google homepage.
+  "error:", error;
+  "statusCode:", response && response.statusCode;
+  console.log("body:", body);
 });
