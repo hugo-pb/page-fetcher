@@ -8,3 +8,8 @@ request(link, (error, response, body) => {
   "statusCode:", response && response.statusCode;
   data = body;
 });
+fs.writeFile(adrress, data, err => {
+  if (err) {
+    console.error(err);
+  }
+});
